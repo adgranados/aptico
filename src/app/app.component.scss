@@ -1,0 +1,56 @@
+$amarillo:#D4AF37;
+$naranja:#FF9666;
+$gris:#666666;
+$dark:#2C2C2C;
+$verdeAguaMarina:#207178;
+$azulOscuro:#174C4F;
+header {
+  background-color: $verdeAguaMarina;
+  height: 200px;
+}
+.header-container{
+//margin: 5px;
+width: 200px;
+text-align: center;
+margin-top: -110px;
+}
+.header{
+  font-size: 35px;
+  font-family: 'Pacifico', cursive;
+  color:$amarillo
+}
+.slogan{
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  color:$amarillo
+}
+.header-logo{
+  width: 200px;
+}
+.logo{
+  align-self: flex-start;
+}
+.aptico-header{
+display: flex;
+align-items: center;
+    justify-content: space-between;
+ol{
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  li{
+    color:$amarillo;
+    margin: 5px;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    cursor: pointer;
+    &:hover{
+      //color:$naranja;
+      text-decoration: underline;
+      font-weight: bolder;
+    }
+  }
+}
+}

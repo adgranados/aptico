@@ -1,10 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { OpotunidadesComponent } from './opotunidades.component';
+import { OportunidadesComponent } from './oportunidades.component';
+
 
 
 const routes: Routes = [
-  { path: "", component: OpotunidadesComponent },
+  { path: "", component: OportunidadesComponent },
 ];
 
 
@@ -15,4 +16,4 @@ const routes: Routes = [
   exports: [RouterModule],
 
 })
-export class OpotunidadesRoutingModule { }
+export class OportunidadesRoutingModule { }
